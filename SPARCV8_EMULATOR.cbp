@@ -1,0 +1,94 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes" ?>
+<CodeBlocks_project_file>
+	<FileVersion major="1" minor="6" />
+	<Project>
+		<Option title="SPARCV8_EMULATOR" />
+		<Option pch_mode="2" />
+		<Option compiler="gcc" />
+		<Build>
+			<Target title="Debug">
+				<Option output="bin/Debug/SPARCV8_EMULATOR" prefix_auto="1" extension_auto="1" />
+				<Option object_output="obj/Debug/" />
+				<Option type="1" />
+				<Option compiler="gcc" />
+				<Compiler>
+					<Add option="-g" />
+				</Compiler>
+			</Target>
+			<Target title="Release">
+				<Option output="bin/Release/SPARCV8_EMULATOR" prefix_auto="1" extension_auto="1" />
+				<Option object_output="obj/Release/" />
+				<Option type="1" />
+				<Option compiler="gcc" />
+				<Compiler>
+					<Add option="-O2" />
+				</Compiler>
+				<Linker>
+					<Add option="-s" />
+				</Linker>
+			</Target>
+		</Build>
+		<Compiler>
+			<Add option="-Wall" />
+		</Compiler>
+		<Unit filename="COMMAND_PROMPT.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="COMMAND_PROMPT.h" />
+		<Unit filename="EMU_MEMORY.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="EMU_MEMORY.h" />
+		<Unit filename="HELPER.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="HELPER.h" />
+		<Unit filename="SPARCV8_EMULATOR_CORE.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="SPARCV8_EMULATOR_CORE.h" />
+		<Unit filename="SPARCV8_INSTRUCTION_SET.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="SPARCV8_INSTRUCTION_SET.h" />
+		<Unit filename="SPARCV8_MAIN_INITIALIZER.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="SPARCV8_MAIN_INITIALIZER.h" />
+		<Unit filename="SPARCV8_MMU.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="SPARCV8_MMU.h" />
+		<Unit filename="SPARCV8_PROC.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="SPARCV8_PROC.h" />
+		<Unit filename="SPARCV8_PROC_COPROCESSOR.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="SPARCV8_PROC_COPROCESSOR.h" />
+		<Unit filename="SPARCV8_PROC_FLOATING_POINT_UNIT.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="SPARCV8_PROC_FLOATING_POINT_UNIT.h" />
+		<Unit filename="SPARCV8_PROC_INTEGER_UNIT.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="SPARCV8_PROC_INTEGER_UNIT.h" />
+		<Unit filename="SPARCV8_TRAPS.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="SPARCV8_TRAPS.h" />
+		<Unit filename="THREADS.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="THREADS.h" />
+		<Unit filename="TYPES.h" />
+		<Extensions>
+			<code_completion />
+			<envvars />
+			<debugger />
+			<lib_finder disable_auto="1" />
+		</Extensions>
+	</Project>
+</CodeBlocks_project_file>
