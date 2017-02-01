@@ -4,7 +4,7 @@ The programming language which was used for the structure of the emulator was AN
 
 Test Program Overview :
 
-In order to execute the sample program, after the initialization (by executing the "INITIALIZE" command) of the Emulator you can execute the "LOAD PROGRAM MEAN VALUE" command. This way the Emulator will be initialized as well as the Program Memory and the Data Memory with the necessary data. Later, you can run the Sample Program by executing "FREERUN", or "STEP" command, if you want to supervise the Emulator's status (Registers e.t.c).
+In order to execute the sample program, after the initialization (by executing the "INITIALIZE" command) of the Emulator you can execute the "LOAD PROGRAM MEAN VALUE" command. This way the Emulator will be initialized as well as the Program Memory and the Data Memory with the necessary data. Later, you can run the Sample Program by executing "FREERUN", or "STEP" command. If you want to supervise the Emulator's status you can "HALT" the emulator and print the required information (Registers, Memory e.t.c).
 
 Sample Program : 
 
