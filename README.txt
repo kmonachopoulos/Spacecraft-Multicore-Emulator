@@ -17,18 +17,18 @@ LD 0x0000000C,3
 
 === List of values in program memory ===
 
-LD G[1],ΜΕΜ_DATA[0]   	/* hex-> 0xC2002000 */
-ADD O[0],G[1],G[0] 	    /* hex-> 0x90000001 */
-LD G[1], ΜΕΜ_DATA[4]   	/* hex-> 0xC2002004 */
-ADD O[1],G[1],G[0] 	    /* hex-> 0x92000001 */
-LD G[1], ΜΕΜ_DATA[8] 	  /* hex-> 0xC2002008 */
-ADD O[2],G[1],G[0] 	    /* hex-> 0x94000001 */
-SAVE O[2],G[1],G[0] 	  /* hex-> 0x95E00000 */
-ADD L[0],I[0],I[1] 	    /* hex-> 0xA0060019 */
-ADD O[0],I[2],L[0] 	    /* hex-> 0x90068010 */
-SAVE O[2],G[0],G[0] 	  /* hex-> 0x95E00000 */
-LD G[1], ΜΕΜ_DATA[12] 	/* hex-> 0xC200200C */
-UDIV I[0],I[O],G[1]   	/* hex-> 0xB0760001 */
+LD G[1],ΜΕΜ_DATA[0]     /* hex-> 0xC2002000 */
+ADD O[0],G[1],G[0]      /* hex-> 0x90000001 */
+LD G[1], ΜΕΜ_DATA[4]    /* hex-> 0xC2002004 */
+ADD O[1],G[1],G[0]      /* hex-> 0x92000001 */
+LD G[1], ΜΕΜ_DATA[8]    /* hex-> 0xC2002008 */
+ADD O[2],G[1],G[0]      /* hex-> 0x94000001 */
+SAVE O[2],G[1],G[0]     /* hex-> 0x95E00000 */
+ADD L[0],I[0],I[1]      /* hex-> 0xA0060019 */
+ADD O[0],I[2],L[0]      /* hex-> 0x90068010 */
+SAVE O[2],G[0],G[0]     /* hex-> 0x95E00000 */
+LD G[1], ΜΕΜ_DATA[12]   /* hex-> 0xC200200C */
+UDIV I[0],I[O],G[1]     /* hex-> 0xB0760001 */
 RESTORE G[1],G[0],G[0]  /* hex-> 0x83E80000 */
-ADD I[0],O[0],G[0]    	/* hex-> 0xB0020000 */
+ADD I[0],O[0],G[0]      /* hex-> 0xB0020000 */
 RESTORE G[1],G[0],G[0]  /* hex-> 0x83E80008 */
