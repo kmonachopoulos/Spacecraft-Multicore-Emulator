@@ -3,7 +3,7 @@
   Project       : Sparc_V8 Emulator
   File          : EMU_MEMORY.c
   Description   : Memory manage and initialization for SPARCV8 EMULATOR
-  Author        : Monahopoulos Konstantinos
+  Author        : Monachopoulos Konstantinos
   ------------------------------------------------------------------------------------------------------------------------------------------
 */
 /*

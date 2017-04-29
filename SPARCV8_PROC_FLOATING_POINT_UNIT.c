@@ -3,7 +3,7 @@
   Project       : Sparc_V8 Emulator
   File          : SPARCV8_PROC_FLOATING_POINT_UNIT.c
   Description   : Sparc V8 Floating Point Unit initialization
-  Author        : Monahopoulos Konstantinos
+  Author        : Monachopoulos Konstantinos
   ------------------------------------------------------------------------------------------------------------------------------------------
 */
 /*

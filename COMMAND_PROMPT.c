@@ -3,7 +3,7 @@
   Project       : Sparc_V8 Emulator
   File          : COMMAND_PROMPT.c
   Description   : Command Prompt manage SPARCV8 EMULATOR Process
-  Author        : Monahopoulos Konstantinos
+  Author        : Monachopoulos Konstantinos
   ------------------------------------------------------------------------------------------------------------------------------------------
 */
 /*
@@ -93,10 +93,10 @@ void command_prompt_terminal_initialize(struct COMMAND_PROMT_TERMINAL *command_p
 
 DWORD WINAPI command_prompt(LPVOID thread_info_ptr)
 {
-    printf("Copyright (C) 2016 Monahopoulos Konstantinos\n"
+    printf("Copyright (C) 2016 Monachopoulos Konstantinos\n"
            "Project       : Sparc V8 Emulator\n"
            "Description   : Spacecraft Multicore Emulator Based on Leon 3 Sparc V8 architecture processor\n"
-           "Author        : Monahopoulos Konstantinos\n");
+           "Author        : Monachopoulos Konstantinos\n");
     while(1)
     {
 
@@ -1307,10 +1307,10 @@ void command_prompt_read_coreg(void)
 void command_prompt_clear_terminal(void)
 {
     system("CLS");
-    printf("Copyright     : Copyright (C) 2016 Monahopoulos Konstantinos\n"
+    printf("Copyright     : Copyright (C) 2016 Monachopoulos Konstantinos\n"
            "Project       : Sparc_V8 Emulator\n"
            "Description   : Spacecraft Multicore Emulator Based on Leon 3 Sparc V8 architecture processor\n"
-           "Author        : Monahopoulos Konstantinos\n");
+           "Author        : Monachopoulos Konstantinos\n");
     return;
 }
 

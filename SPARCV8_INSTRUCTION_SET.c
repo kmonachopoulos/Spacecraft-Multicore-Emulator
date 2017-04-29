@@ -3,7 +3,7 @@
   Project       : Sparc_V8 Emulator
   File          : SPARCV8_INSTRUCTION_SET.c
   Description   : Sparc V8 instruction set
-  Author        : Monahopoulos Konstantinos
+  Author        : Monachopoulos Konstantinos
   ------------------------------------------------------------------------------------------------------------------------------------------
 */
 /*

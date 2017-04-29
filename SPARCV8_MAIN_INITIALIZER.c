@@ -3,7 +3,7 @@
   Project       : Sparc_V8 Emulator
   File          : SPARCV8_MAIN_INITIALIZER.c
   Description   : Sparc V8 initialization, main loop execution
-  Author        : Monahopoulos Konstantinos
+  Author        : Monachopoulos Konstantinos
   ------------------------------------------------------------------------------------------------------------------------------------------
 */
 /*

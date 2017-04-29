@@ -3,7 +3,7 @@
   Project       : Sparc_V8 Emulator
   File          : HELPER.c
   Description   : Helper functions for SPARCV8 EMULATOR process
-  Author        : Monahopoulos Konstantinos
+  Author        : Monachopoulos Konstantinos
   ------------------------------------------------------------------------------------------------------------------------------------------
 */
 /*

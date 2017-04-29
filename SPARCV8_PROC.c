@@ -3,7 +3,7 @@
   Project       : Sparc_V8 Emulator
   File          : SPARCV8_PROC.c
   Description   : Sparc V8 Main processor components initialization
-  Author        : Monahopoulos Konstantinos
+  Author        : Monachopoulos Konstantinos
   ------------------------------------------------------------------------------------------------------------------------------------------
 */
 /*
